@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/img_travel"
+        android:layout_width="285sp"
+        android:layout_height="202sp"
+        android:src="@drawable/travel"
+        tools:ignore="MissingConstraints"
+        android:layout_gravity="center"
+        />
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        >
+
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:inputType="textPassword"
+            android:hint="비밀번호 입력"
+            android:text=""/>
+        <Button
+            android:id="@+id/login_click"
+            android:layout_gravity="fill"
+            android:layout_rowSpan="2"
+            android:background="@color/colorAccent"
+            android:text="확인"
+            android:onClick="onClick" />
+
+
+    </GridLayout>
+
+
+
+    <!--<LinearLayout-->
+        <!--android:paddingTop="30dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_weight="0.99">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/enroll_click"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="fill"-->
+            <!--android:background="@color/colorAccent"-->
+            <!--android:text="잠금비밀번호 변경"-->
+            <!--android:onClick="onClick"/>-->
+
+
+    <!--</LinearLayout>-->
+
+
+
+
+</LinearLayout>

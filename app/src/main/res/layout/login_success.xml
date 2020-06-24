@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="0.5">
+
+   <Switch
+       android:layout_marginTop="20sp"
+       android:layout_gravity="end"
+       android:id="@+id/switch1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="화면잠금설정"
+       android:showText="true"/>
+
+      <Button
+          android:visibility="gone"
+          android:layout_gravity="end"
+          android:id="@+id/changePass"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="비밀번호 변경"/>
+
+
+
+   <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+       android:layout_weight="0.35"
+       android:gravity="center"
+       android:layout_gravity="center"
+       android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="173dp"
+       android:layout_height="158dp"
+       android:layout_weight="0.2"
+       >
+
+      <ImageView
+          android:id="@+id/card1"
+          android:layout_width="175dp"
+          android:layout_height="166dp"
+          android:src="@drawable/travel"
+          android:clickable="true"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/border"
+          android:text="여행계획짜기"
+          android:layout_gravity="bottom|center"/>
+
+
+   </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+
+          android:layout_width="173dp"
+          android:layout_height="158dp"
+          android:layout_weight="0.2"
+          >
+
+         <ImageView
+             android:id="@+id/card2"
+             android:layout_width="129dp"
+             android:layout_height="111dp"
+             android:layout_gravity="center"
+             android:clickable="true"
+             android:src="@drawable/check" />
+
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/border"
+             android:text="체크리스트"
+             android:layout_gravity="bottom|center"/>
+
+      </androidx.cardview.widget.CardView>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="173dp"
+          android:layout_height="158dp"
+          android:layout_weight="0.2"
+          >
+
+         <ImageView
+             android:id="@+id/card3"
+             android:layout_width="175dp"
+             android:layout_height="166dp"
+             android:src="@drawable/file"
+             android:clickable="true"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/border"
+             android:text="노트작성"
+             android:layout_gravity="bottom|center"/>
+
+      </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+
+
+          android:layout_width="173dp"
+          android:layout_height="158dp"
+          android:layout_weight="0.2"
+          >
+
+         <ImageView
+             android:id="@+id/card4"
+             android:layout_width="175dp"
+             android:layout_height="166dp"
+             android:src="@drawable/travel"
+             android:clickable="true"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/border"
+             android:text="나의 여행목록"
+             android:layout_gravity="bottom|center"/>
+      </androidx.cardview.widget.CardView>
+
+
+
+   </LinearLayout>
+
+
+   </LinearLayout>
+
+
+</LinearLayout>

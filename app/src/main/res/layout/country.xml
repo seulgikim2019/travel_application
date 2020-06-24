@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="1"
+        >
+
+        <LinearLayout
+            android:id="@+id/travel_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.9">
+    <TextView
+        android:id="@+id/travel_rink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:text="2019 최고의 여행지 TOP10(나라)\n-론리플래닛-"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/travel_country_rink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="#CC33FF"
+            android:textSize="15dp"
+            android:text="1위: "
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+
+        </LinearLayout>
+    <Button
+        android:id="@+id/country_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="선택완료"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:shrinkColumns="*"
+            >
+
+
+            <TextView
+                android:textColor="#333333"
+                android:text="동유럽"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+            <TableRow android:id="@+id/east_eu_1">
+
+                <ImageView
+                    android:id="@+id/russia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:src="@drawable/russia"
+                    android:clickable="true"
+                    />
+
+                <ImageView
+
+                    android:id="@+id/czech"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:src="@drawable/czech"
+                    android:clickable="true"/>
+
+
+                <ImageView
+
+                    android:id="@+id/poland"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:src="@drawable/poland"
+                    android:clickable="true"/>
+
+
+            </TableRow>
+            <TableRow android:id="@+id/east_eu_1_text">
+
+                <TextView
+
+                    android:id="@+id/russia_text"
+                    android:layout_gravity="center"
+                    android:text="러시아" />
+
+                <TextView
+
+                    android:id="@+id/czech_text"
+                    android:layout_gravity="center"
+                    android:text="체코" />
+
+                <TextView
+
+                    android:id="@+id/poland_text"
+                    android:layout_gravity="center"
+                    android:text="폴란드" />
+
+
+            </TableRow>
+        <TableRow android:layout_marginTop="10dp"
+            android:id="@+id/east_eu_2"
+            android:visibility="gone">
+            <ImageView
+
+                android:id="@+id/romania"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:src="@drawable/romania"
+                android:clickable="true"/>
+
+
+            <ImageView
+
+                android:id="@+id/bulgaria"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:src="@drawable/bulgaria"
+                android:clickable="true"/>
+
+
+            <ImageView
+                android:id="@+id/belarus"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:src="@drawable/belarus"
+                android:clickable="true"/>
+        </TableRow>
+
+            <TableRow android:id="@+id/east_eu_2_text"
+                android:visibility="gone">
+
+                <TextView
+
+                    android:id="@+id/romania_text"
+                    android:layout_gravity="center"
+                    android:text="루마니아" />
+
+
+                <TextView
+
+                    android:id="@+id/bulgaria_text"
+                    android:layout_gravity="center"
+                    android:text="불가리아" />
+
+
+                <TextView
+
+                    android:id="@+id/belarus_text"
+                    android:layout_gravity="center"
+                    android:text="벨라루스" />
+
+
+            </TableRow>
+
+
+
+
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/east_eu_btn"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="▼(더보기)" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:shrinkColumns="*"
+            >
+
+
+            <TextView
+                android:textColor="#333333"
+                android:text="서유럽"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+            <TableRow
+                android:id="@+id/west_eu_1">
+
+                <ImageView
+
+                    android:id="@+id/austria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:src="@drawable/austria"
+                    android:clickable="true"/>
+
+                <ImageView
+
+                    android:id="@+id/belgium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:src="@drawable/belgium"
+                    android:clickable="true"/>
+                <ImageView
+
+                    android:id="@+id/swiss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:src="@drawable/swiss"
+                    android:clickable="true"/>
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/west_eu_1_text">
+
+                <TextView
+
+                    android:id="@+id/austria_text"
+                    android:layout_gravity="center"
+                    android:text="오스트리아" />
+
+                <TextView
+
+                    android:id="@+id/belgium_text"
+                    android:layout_gravity="center"
+                    android:text="벨기에" />
+
+                <TextView
+
+                    android:id="@+id/swiss_text"
+                    android:layout_gravity="center"
+                    android:text="스위스" />
+
+
+            </TableRow>
+
+            <TableRow android:layout_marginTop="10dp"
+                android:visibility="gone"
+                android:id="@+id/west_eu_2">
+
+                <ImageView
+
+                    android:id="@+id/germany"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:src="@drawable/germany"
+                    android:clickable="true"/>
+
+            </TableRow>
+            <TableRow
+                android:visibility="gone"
+                android:id="@+id/west_eu_2_text">
+
+                <TextView
+
+                    android:id="@+id/germany_text"
+                    android:layout_gravity="center"
+                    android:text="독일" />
+
+            </TableRow>
+
+        </TableLayout>
+
+
+
+        <Button
+
+            android:id="@+id/west_eu_btn"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="▼(더보기)" />
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:shrinkColumns="*">
+
+
+            <TextView
+                android:textColor="#333333"
+                android:text="북유럽"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+            <TableRow
+                android:id="@+id/north_eu_1">
+
+                <ImageView
+
+                    android:id="@+id/sweden"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:src="@drawable/sweden"
+                    android:clickable="true"/>
+
+                <ImageView
+
+                    android:id="@+id/demark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:src="@drawable/finland"
+                    android:clickable="true"/>
+
+                <ImageView
+
+                    android:id="@+id/finland"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:src="@drawable/finland"
+                    android:clickable="true"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/north_eu_1_text">
+
+                <TextView
+
+                    android:id="@+id/sweden_text"
+                    android:layout_gravity="center"
+                    android:text="스웨덴" />
+
+                <TextView
+
+                    android:id="@+id/denmark_text"
+                    android:layout_gravity="center"
+                    android:text="덴마크" />
+
+                <TextView
+
+                    android:id="@+id/finland_text"
+                    android:layout_gravity="center"
+                    android:text="핀란드" />
+
+
+            </TableRow>
+            <TableRow android:layout_marginTop="10dp"
+                android:visibility="gone"
+                android:id="@+id/north_eu_2">
+
+                <ImageView
+
+                    android:id="@+id/union"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:src="@drawable/travel"
+                    android:clickable="true"/>
+
+            </TableRow>
+            <TableRow
+                android:visibility="gone"
+                android:id="@+id/north_eu_2_text">
+
+                <TextView
+
+                    android:id="@+id/union_text"
+                    android:layout_gravity="center"
+                    android:text="영국" />
+
+            </TableRow>
+
+        </TableLayout>
+
+
+        <Button
+
+            android:id="@+id/north_eu_btn"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="▼(더보기)" />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:shrinkColumns="*">
+
+
+            <TextView
+                android:textColor="#333333"
+                android:text="중남아시아"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+            <TableRow
+                android:id="@+id/scentral_asia">
+
+                <ImageView
+
+                    android:id="@+id/india"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:src="@drawable/india"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="true"/>
+
+                <ImageView
+
+                android:id="@+id/kyrgyzstan"
+                    android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:src="@drawable/kyrgyzstan"
+                android:clickable="true"/>
+
+                <ImageView
+                    android:id="@+id/maldives"
+                    android:layout_width="131dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/maldives"
+                    android:clickable="true"/>
+
+
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/scentral_asia_text">
+
+                <TextView
+
+                    android:id="@+id/india_text"
+                    android:layout_gravity="center"
+                    android:text="인도" />
+
+                <TextView
+
+                    android:id="@+id/kyrgyzstan_text"
+                    android:layout_gravity="center"
+                    android:text="키르기스스탄" />
+
+                <TextView
+
+                    android:id="@+id/maldives_text"
+                    android:layout_gravity="center"
+                    android:text="몰디브" />
+
+
+            </TableRow>
+
+        </TableLayout>
+        <Button
+
+            android:id="@+id/scentral_asia_btn"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="▼(더보기)" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:shrinkColumns="*">
+
+
+            <TextView
+                android:textColor="#333333"
+                android:text="동남아시아"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+            <TableRow
+                android:id="@+id/esentral_asia">
+
+                <ImageView
+
+                    android:id="@+id/vietnam"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:src="@drawable/vietnam"
+                    android:clickable="true"/>
+
+                <ImageView
+
+                    android:id="@+id/thailand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:src="@drawable/thailand"
+                    android:clickable="true"/>
+
+                <ImageView
+                    android:id="@+id/indonesia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:src="@drawable/indonesia"
+                    android:clickable="true"/>
+
+
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/esentral_asia_text">
+
+                <TextView
+
+                    android:id="@+id/vietnam_text"
+                    android:layout_gravity="center"
+                    android:text="베트남" />
+
+                <TextView
+
+                    android:id="@+id/thailand_text"
+                    android:layout_gravity="center"
+                    android:text="태국" />
+
+                <TextView
+                    android:id="@+id/indonesia_text"
+                    android:layout_gravity="center"
+                    android:text="인도네시아" />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <Button
+
+            android:id="@+id/esentral_asia_btn"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="▼(더보기)" />
+
+    </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

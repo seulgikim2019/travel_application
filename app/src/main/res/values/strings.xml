@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Travel</string>
+    <string name="google_api_key"><!--키 넣으세요--></string>
+    <string name="weather_api_key"><!--키 넣으세요--></string>
+</resources>

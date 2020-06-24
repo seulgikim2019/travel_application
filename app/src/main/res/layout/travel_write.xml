@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/travel_that_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="해당국가"
+            android:layout_marginRight="10sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="["/>
+
+        <TextView
+            android:id="@+id/travel_that_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="해당날짜"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="]"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:weightSum="3">
+
+
+        <Button
+            android:id="@+id/travel_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="확인" />
+
+        <Button
+            android:id="@+id/travel_ok_final"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="작성완료" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/travel_todo"
+        android:paddingTop="10sp"
+        android:layout_marginLeft="7dp"
+        android:layout_width="204dp"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:hint="장소"
+        android:text=""
+        android:clickable="true"
+        android:background="@drawable/border"
+        />
+    <TextView
+        android:layout_marginLeft="25dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/travel_weather_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#A50B5E"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/travel_time"
+        android:paddingTop="10sp"
+        android:layout_marginLeft="7dp"
+        android:layout_width="204dp"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:hint="시간"
+        android:text=""
+        android:clickable="true"
+        android:background="@drawable/border"
+        />
+
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/travel_weather_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:background="#A50B5E"/>
+
+        <ImageView
+            android:background="#A50B5E"
+            android:layout_gravity="right"
+            android:id="@+id/travel_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+    <EditText
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="6dp"
+        android:id="@+id/travel_detail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="상세계획"
+        android:background="@drawable/border"/>
+
+
+    <Button
+        android:layout_marginTop="6dp"
+        android:id="@+id/travel_route"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:textAlignment="center"
+        android:text="경로보기"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2sp"
+            android:text="시간"
+            android:layout_weight="1"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="장소"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상세계획"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/travel_write_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <!--<LinearLayout-->
+        <!--android:paddingTop="15dp"-->
+        <!--android:id="@+id/schedule_list"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/travel_all"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="422dp"-->
+            <!--android:background="@drawable/border"-->
+            <!--android:textSize="20dp"-->
+            <!--android:text=""/>-->
+
+    <!--</LinearLayout>-->
+
+
+
+
+
+
+
+
+
+</LinearLayout>
