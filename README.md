@@ -20,5 +20,17 @@
 ● API: Google MAP, OpenWeatherMap
 
 
+-스크린샷-
+<div>
+<img src="https://user-images.githubusercontent.com/67361330/85650867-695fbc00-b6e1-11ea-9a36-f90315c23eb3.png" width="100%"></img>
+<img src="https://user-images.githubusercontent.com/67361330/85650896-7f6d7c80-b6e1-11ea-9f9f-500461ba6d4c.png" width="100%"></img>
+<img src="https://user-images.githubusercontent.com/67361330/85650918-8d230200-b6e1-11ea-8b97-258d654743ef.png" width="100%"></img>
+<img src="https://user-images.githubusercontent.com/67361330/85650935-990ec400-b6e1-11ea-922c-d2644f5db805.png" width="100%"></img>
+<img src="https://user-images.githubusercontent.com/67361330/85650949-a62bb300-b6e1-11ea-869a-c20cd3b22c4b.png" width="100%"></img>
+<img src="https://user-images.githubusercontent.com/67361330/85651045-e9862180-b6e1-11ea-916c-5553528b65e7.png" width="100%"></img>
+<img src="https://user-images.githubusercontent.com/67361330/85651096-04589600-b6e2-11ea-9db9-2ee071d7b95b.png" width="100%"></img>
+</div>
 
+-영상링크-
+https://youtu.be/yiqQE0VnyhI
 
