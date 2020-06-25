@@ -22,15 +22,16 @@
 
 -스크린샷-
 <div>
-<img src="https://user-images.githubusercontent.com/67361330/85650867-695fbc00-b6e1-11ea-9a36-f90315c23eb3.png" width="100%"></img>
-<img src="https://user-images.githubusercontent.com/67361330/85650896-7f6d7c80-b6e1-11ea-9f9f-500461ba6d4c.png" width="100%"></img>
-<img src="https://user-images.githubusercontent.com/67361330/85650918-8d230200-b6e1-11ea-8b97-258d654743ef.png" width="100%"></img>
-<img src="https://user-images.githubusercontent.com/67361330/85650935-990ec400-b6e1-11ea-922c-d2644f5db805.png" width="100%"></img>
-<img src="https://user-images.githubusercontent.com/67361330/85650949-a62bb300-b6e1-11ea-869a-c20cd3b22c4b.png" width="100%"></img>
-<img src="https://user-images.githubusercontent.com/67361330/85651045-e9862180-b6e1-11ea-916c-5553528b65e7.png" width="100%"></img>
-<img src="https://user-images.githubusercontent.com/67361330/85651096-04589600-b6e2-11ea-9db9-2ee071d7b95b.png" width="100%"></img>
+<img src="https://user-images.githubusercontent.com/67361330/85651665-a167fe80-b6e3-11ea-95b6-564c50303149.png" width="100%"></img>
+<img src="https://user-images.githubusercontent.com/67361330/85651700-bba1dc80-b6e3-11ea-8d66-9599e2972873.png" width="100%"></img>
+<img src="https://user-images.githubusercontent.com/67361330/85651710-bfcdfa00-b6e3-11ea-9208-c58e64fed179.png" width="100%"></img>
+<img src="https://user-images.githubusercontent.com/67361330/85651713-c492ae00-b6e3-11ea-83a3-61e7702561b3.png" width="100%"></img>
+<img src="https://user-images.githubusercontent.com/67361330/85651720-c8263500-b6e3-11ea-89ce-3a6431c9dc7a.png" width="100%"></img>
+<img src="https://user-images.githubusercontent.com/67361330/85651731-ce1c1600-b6e3-11ea-8d64-09d21c7ba33f.png" width="100%"></img>
+<img src="https://user-images.githubusercontent.com/67361330/85651737-d07e7000-b6e3-11ea-952c-e849c1a34bf8.png" width="100%"></img>
 </div>
 
 -영상링크-
+
 https://youtu.be/yiqQE0VnyhI
 
