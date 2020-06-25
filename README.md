@@ -20,6 +20,8 @@
 
 ● API: Google MAP, OpenWeatherMap
 
+● 저장: SharedPreferences
+
 스크린샷
 ---------
 <div>
